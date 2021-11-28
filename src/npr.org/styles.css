@@ -2,3 +2,37 @@
     background-color: #eee;
     font-family: "Raleway", Helvetica, sans-serif;
 }
+
+.mainNav {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    height: 6.5rem;
+    justify-content: space-between;
+}
+
+.mainNav__img {
+    max-width: 150px;
+}
+
+.mainNav__userLogin {
+    flex-grow: 1;
+    text-align: end;
+    font-size: small;
+    font-weight: bold;
+}
+
+.mainNav__shop {
+    font-size: small;
+    font-weight: bold;
+}
+
+.mainNav__donate {
+    background-color: rgb(180, 0, 0);
+    color: #fff;
+    font-size: small;
+    font-weight: bold;
+    margin-right: 0.75rem; /* half the gap on mainNav */
+    padding: 0.6em;
+    text-align: left;
+}
